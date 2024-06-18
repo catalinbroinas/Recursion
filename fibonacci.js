@@ -53,8 +53,8 @@ console.log(fibs(8)); // [0, 1, 1, 2, 3, 5, 8, 13]
 console.log(fibs(10)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
 console.log("Recursive");
-console.log(fibsRec(0)); // [0]
-console.log(fibsRec(1)); // [0, 1]
+console.log(fibsRec(0)); // []
+console.log(fibsRec(1)); // [0]
 console.log(fibsRec(5)); // [0, 1, 1, 2, 3]
 console.log(fibsRec(8)); // [0, 1, 1, 2, 3, 5, 8, 13]
 console.log(fibsRec(10)); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
