@@ -46,4 +46,9 @@ function mergeSort(arr) {
 }
 
 const myArr = [34, 7, 23, 32, 5, 62];
+const myArr1 = [3, 2, 1, 13, 8, 5, 0, 1];
+const myArr2 = [105, 79, 100, 110];
+
 console.log(mergeSort(myArr)); // [5, 7, 23, 32, 34, 62]
+console.log(mergeSort(myArr1)); // [0, 1, 1, 2, 3, 5, 8, 13]
+console.log(mergeSort(myArr2)); // [79, 100, 105, 110]
